@@ -2,6 +2,8 @@
 from .indicator import Indicator
 
 class RSI(Indicator):
-    def __init__(self):
-        pass
-    
+
+    def calc(self):
+        print("calculating rsi...")
+        print("width data row count: ", len(self.data))
+        

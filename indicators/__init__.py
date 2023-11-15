@@ -22,3 +22,4 @@ Author: Your Name
 
 from .ma import MA
 from .rsi import RSI
+from .indicator import Indicator

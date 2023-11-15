@@ -2,6 +2,7 @@
 from .indicator import Indicator
 
 class MA(Indicator):
-    def __init__(self):
-        pass
-    
+
+    def calc(self):
+        print("calculating ma...")
+        print("width data row count: ", len(self.data))
